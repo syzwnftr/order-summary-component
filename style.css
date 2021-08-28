@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Display", sans-serif;
+  line-height: 1.7;
+}
+
+body {
+  background-image: url("./images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.container {
+  border-radius: 1rem;
+  max-width: 90%;
+  margin: 1rem auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 -6px 20px 0 rgba(0, 0, 0, 0.1);
+  padding-bottom: 1rem;
+}
+
+.h2-order,
+.annual-text {
+  color: hsl(223, 47%, 23%);
+}
+
+.hero-svg img {
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.padding-global {
+  padding: 0 2rem;
+}
+
+.order-summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0.4rem 0;
+  padding: 1rem 2rem;
+}
+
+.h2-order {
+  margin-bottom: 0.7rem;
+}
+
+.order-summary p {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+}
+
+.annual-plan {
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  background-color: hsl(225, 100%, 98%);
+  margin: 0 1rem;
+  padding: 1rem;
+}
+
+.annual-plan a {
+  color: hsl(245, 75%, 52%);
+}
+
+.annual-plan a:hover {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+.music-plan {
+  display: flex;
+  flex-basis: 80%;
+}
+
+.pricing {
+  margin-left: 1.4rem;
+  font-weight: 700;
+}
+
+.pricing .price {
+  font-weight: 300;
+  color: hsl(224, 23%, 55%);
+}
+
+.payment-cancel {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1.5rem;
+}
+
+.payment-cancel > * {
+  border-radius: 1rem;
+  padding: 0.6rem;
+  text-align: center;
+}
+
+.payment-cancel a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.proceed-payment {
+  background-color: hsl(245, 75%, 52%);
+  margin-bottom: 0.5rem;
+}
+
+.proceed-payment:hover {
+  background-color: hsl(224, 23%, 55%);
+  cursor: pointer;
+}
+
+.cancel-order a {
+  color: hsl(224, 23%, 55%);
+}
+
+.cancel-order a:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+/*----- MEDIA QUERIES -----*/
+
+@media (min-width: 27rem) {
+  body {
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-position: top -8rem left 0;
+  }
+
+  .container {
+    max-width: 25rem;
+    margin: 1rem auto;
+    padding-bottom: 1rem;
+  }
+
+  .order-summary {
+    padding: 1rem 3rem;
+  }
+
+  .annual-plan {
+    margin: 0 2rem;
+  }
+}
