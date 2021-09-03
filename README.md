@@ -10,6 +10,7 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+- [Author](#author)
 
 ## Overview
 
@@ -36,4 +37,9 @@ Users should be able to:
 ### Built with
 
 - HTML5
-- CSS
+- CSS Flexbox
+
+## Author
+
+- Frontend Mentor - [@syzwnftr](https://www.frontendmentor.io/profile/syzwnftr)
+- Twitter - [@syzwnftri](https://www.twitter.com/syzwnftri)
