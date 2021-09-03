@@ -22,7 +22,7 @@ body {
   padding-bottom: 1rem;
 }
 
-.h2-order,
+.h1-order,
 .annual-text {
   color: hsl(223, 47%, 23%);
 }
@@ -46,8 +46,9 @@ body {
   padding: 1rem 2rem;
 }
 
-.h2-order {
+.h1-order {
   margin-bottom: 0.7rem;
+  font-size: 1.6rem;
 }
 
 .order-summary p {
@@ -130,12 +131,15 @@ body {
 @media (min-width: 27rem) {
   body {
     background-image: url("./images/pattern-background-desktop.svg");
-    background-position: top -8rem left 0;
+    background-position: top -4rem left 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .container {
     max-width: 25rem;
-    margin: 4.5rem auto;
     padding-bottom: 1rem;
   }
 
